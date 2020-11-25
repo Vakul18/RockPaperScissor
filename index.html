@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Rock/Paper/Scissor</title>
+</head>
+<body>
+    <div class="container-3">
+        <h2 class="heading">Rock paper scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="https://img.pngio.com/rock-png-rock-png-2483_2077.png" height="150" width="150" onclick="onRpsImgClick(this)" ></img>
+            <img id="paper" src="https://smallimg.pngkey.com/png/small/12-122412_note-paper-png-note-paper-image-transparent.png" height="150" width="150" onclick="onRpsImgClick(this)" ></img>
+            <img id="scissor" src="https://img.pngio.com/blue-scissors-png-clip-art-best-web-clipart-scissors-png-clipart-5756_8000.png" height="150" width="150" onclick="onRpsImgClick(this)" ></img>
+        </div>
+        <div class="centerAlign">
+            <button class="btn btn-success" id="resetChallangeBtn" onclick="resetChallenge()" >Reset</button>
+        </div>
+    </div>
+    
+</body>
+<script src='static/js/script.js'></script>
+</html>
